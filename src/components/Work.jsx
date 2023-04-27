@@ -47,7 +47,7 @@ const Work = () => {
               Netflix clone App
             </span>
             <div className='pt-8 text-center'>
-              <a href='https://netflix-kola.netlify.app'>
+              <a href='https://netflix-kola.netlify.app' target='_blank'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
@@ -69,7 +69,7 @@ const Work = () => {
               Techbrains Website
             </span>
             <div className='pt-8 text-center'>
-              <a href='https://techbrains.netlify.app'>
+              <a href='https://techbrains.netlify.app' target='_blank'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
@@ -91,7 +91,7 @@ const Work = () => {
               Expense tracker app
             </span>
             <div className='pt-8 text-center'>
-              <a href='papsonexpensetracker.netlify.app'>
+              <a href='papsonexpensetracker.netlify.app' target='_blank'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
