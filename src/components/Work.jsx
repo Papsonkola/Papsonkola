@@ -2,6 +2,7 @@ import React from 'react'
 import realestate from '../assets/realestate.jpg'
 import tech from '../assets/techbrains.png'
 import netflix from '../assets/netfixweb.png'
+import expense from '../assets/expense.png'
 
 const Work = () => {
   return (
@@ -46,7 +47,7 @@ const Work = () => {
               Netflix clone App
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+              <a href='https://netflix-kola.netlify.app'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
@@ -68,7 +69,7 @@ const Work = () => {
               Techbrains Website
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+              <a href='https://techbrains.netlify.app'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
@@ -83,14 +84,14 @@ const Work = () => {
         </div>
 
          {/* Grid item */}
-         <div style={{backgroundImage: `url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
+         <div style={{backgroundImage: `url(${expense})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
           {/* Hover effect */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
-              Real Estate Web Application
+              Expense tracker app
             </span>
             <div className='pt-8 text-center'>
-              <a href='/'>
+              <a href='papsonexpensetracker.netlify.app'>
                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg'>
                   Demo
                 </button>
