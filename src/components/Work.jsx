@@ -4,6 +4,7 @@ import tech from '../assets/techbrains.png'
 import netflix from '../assets/netfixweb.png'
 import expense from '../assets/expense.png'
 import midpoint from '../assets/midpoint.png'
+import list from '../assets/listing.png'
 
 const Work = () => {
   return (
@@ -108,7 +109,7 @@ const Work = () => {
         </div>
 
          {/* Grid item */}
-         <div style={{backgroundImage: `url(${realestate})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
+         <div style={{backgroundImage: `url(${list})`}}  className='shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center text-center mx-auto content-div'>
           {/* Hover effect */}
           <div className='opacity-0 group-hover:opacity-100'>
             <span className='text-2xl font-bold text-white tracking-wider'>
